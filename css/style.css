@@ -730,7 +730,7 @@ a:hover {
 
 .service-box .s-title {
   font-size: 1.4rem;
-  text-transform: uppercase;
+/*   text-transform: uppercase; */
   text-align: center;
   padding: .4rem 0;
 }
@@ -1262,4 +1262,33 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+}
+
+.box1:hover {
+  background-color: #007bff; 
+  border: 3px solid #0a090a;
+  border-radius: 5px; /* Change background color on hover for the first box */
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.box2:hover {
+  background-color: #007bff;
+  border: 3px solid #0a090a;
+  border-radius: 5px; /* Change background color on hover for the second box */
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.box3:hover {
+  background-color: #007bff;
+  border: 3px solid #0a090a;
+  border-radius: 5px; /* Change background color on hover for the third box */
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.li {
+  color: #000;
+  font-weight: 600;
 }
